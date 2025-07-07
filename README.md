@@ -21,7 +21,7 @@ A Python class for generating and visualizing alpha-fractal functions using iter
 - matplotlib
 
 # Usage
-<pre> ```AlphaFractal(scale_vector, b_func, f_func, interval, num_intervals, max_depth)```<pre>
+<pre> ```AlphaFractal(scale_vector, b_func, f_func, interval, num_intervals, max_depth)``` <pre>
 
 * scale_vector: * List/array of alpha (scaling) values, length = num_intervals
 
