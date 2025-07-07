@@ -38,12 +38,15 @@ A Python class for generating and visualizing alpha-fractal functions using iter
 
 ## Methods:
 
--`generate_points(x0, y0)`: Returns lists of x and y coordinates for the fractal, starting at (x0, y0).
+- `generate_points(x0, y0)`: Returns lists of x and y coordinates for the fractal, starting at (x0, y0).
 
 # Notes
 
--Designed for intervals divided into equal subintervals.
+- Designed for intervals divided into equal subintervals.
 
--The choice of scale_vector, b_func, and f_func affects the fractal's shape and properties.
+- The choice of scale_vector, b_func, and f_func affects the fractal's shape and properties.
 
--Higher max_depth yields more detail but increases computation time and memory usage.
+- Higher max_depth yields more detail but increases computation time and memory usage.
+  
+- For better understanding see `main.py`
+
