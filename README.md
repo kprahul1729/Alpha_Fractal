@@ -1,8 +1,8 @@
-## AlphaFractal
+# AlphaFractal
 
 A Python class for generating and visualizing alpha-fractal functions using iterated function systems (IFS) on intervals partitioned into equal subintervals. This is useful for research and education in fractal interpolation, self-similar structures, and mathematical visualization.
 
-# Features
+## Features
 
 * Customizable scaling: User-defined alpha (scaling) values per subinterval.
 
@@ -14,13 +14,13 @@ A Python class for generating and visualizing alpha-fractal functions using iter
 
 * Easy plotting: Generates point sets for easy visualization.
 
-# Requirements
+## Requirements
 
 - numpy
 
 - matplotlib
 
-# Usage
+## Usage
 `AlphaFractal(scale_vector, b_func, f_func, interval, num_intervals, max_depth)`
 
 **scale_vector:** List/array of alpha (scaling) values, length = num_intervals
@@ -35,7 +35,7 @@ A Python class for generating and visualizing alpha-fractal functions using iter
 
 **max_depth:** Recursion depth
 
-# Methods:
+## Methods:
 
 `generate_points(x0, y0)`: Returns lists of x and y coordinates for the fractal, starting at (x0, y0).
 
